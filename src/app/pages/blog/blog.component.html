@@ -1,0 +1,13 @@
+<h2>Blog</h2>
+
+<h3>Posts</h3>
+<ul>
+    <li><a [routerLink]="['/blog', 1, 'post1']">post1</a></li>
+    <li><a [routerLink]="['/blog', 2, 'post2']">post2</a></li>
+    <li><a [routerLink]="['/blog', 3, 'post3']">post3</a></li>
+    <li><a [routerLink]="['/blog', 4, 'post4']">post4</a></li>
+    <li><a [routerLink]="['/blog', 5, 'post5']">post5</a></li>  
+</ul>
+
+<button (click)="onHomePage()">На главную</button>
+<button (click)="onEditBlogPage()">Редактировать</button>
